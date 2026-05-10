@@ -107,11 +107,11 @@ The final Markdown report is printed to the terminal and saved to:
     |-- README.md
     |
     |-- steps/
-    |   |-- step1_spread_architect.py    LLM: identifies theme and selects spread
-    |   |-- step2_draw_engine.py         Tool: fetches deck from tarotapi.dev, draws cards
-    |   |-- step3_contextual_interpreter.py  LLM: per-card interpretation
-    |   |-- step4_narrative_synthesizer.py   LLM: cohesive narrative
-    |   |-- step5_action_formatter.py    LLM: final Markdown report
+    |   |-- Step_1.py   LLM: identifies theme and selects spread
+    |   |-- Step_2.py         Tool: fetches deck from tarotapi.dev, draws cards
+    |   |-- Step_3.py  LLM: per-card interpretation
+    |   |-- Step_4.py   LLM: cohesive narrative
+    |   |-- Step_5.py    LLM: final Markdown report
     |
     |
     |-- grok_client.py               Grok API wrapper with retry and JSON parsing
